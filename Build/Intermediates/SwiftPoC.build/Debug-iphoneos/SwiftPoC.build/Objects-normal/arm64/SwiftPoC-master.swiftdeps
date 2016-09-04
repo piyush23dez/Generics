@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "579e499a03833314d0e1640f201fd219"
+build_time: [526342768, 105980000]
+inputs:
+  "/Users/sharmpi/Downloads/SwiftPoC/SwiftPoC/SwiftPocViewController.swift": !dirty [526176896, 0]
+  "/Users/sharmpi/Downloads/SwiftPoC/SwiftPoC/AppDelegate.swift": !dirty [526068534, 0]

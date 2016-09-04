@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.43.6 clang-800.0.38)"
+options: "bb59d9bea3d8f59752c680004cf978f3"
+build_time: [526329188, 127251000]
+inputs:
+  "/Users/sharmpi/Downloads/SwiftPoC/SwiftPoC/SwiftPocViewController.swift": [526176896, 0]
+  "/Users/sharmpi/Downloads/SwiftPoC/SwiftPoC/AppDelegate.swift": [526068534, 0]
