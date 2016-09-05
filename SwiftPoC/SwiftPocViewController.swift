@@ -7,21 +7,21 @@ class SwiftPocViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var stack1 = Stack<String>()
-        stack1.append(item: "Piyush")
-        stack1.append(item: "Abhas")
-        stack1.append(item: "Mohit")
+        var someContainer = Stack<String>()
+        someContainer.append(item: "Piyush")
+        someContainer.append(item: "Abhas")
+        someContainer.append(item: "Mohit")
 
-        var stack2 = Stack<String>()
-        stack2.append(item: "Piyush")
-        stack2.append(item: "Abhas")
-        stack2.append(item: "Amrit")
+        var otherContainer = Stack<String>()
+        otherContainer.append(item: "Piyush")
+        otherContainer.append(item: "Abhas")
+        otherContainer.append(item: "Amrit")
         
         let stack = Stack<String>()
-        let match = stack.allMatches(someContainer: stack1, otherContainer: stack2)
+        let match = stack.allMatches(someContainer: someContainer, otherContainer: otherContainer)
         print(match)
         
-        let index = stack1.findIndex(valueTofind: "Abhas", items: stack1.items)
+        let index = someContainer.findIndex(valueTofind: "Abhas", items: someContainer.items)
         print(index!)
     }
 }
@@ -74,7 +74,7 @@ struct Stack<T>: Container {
         return nil
     }
     
-    //To increment any type of number, we have to conform to strideable protocol
+    //To increment any type of number, we have to conform to Comparable protocol
     func getMin<T: Comparable>(x: T, y: T) -> T {
         return y < x ? y : x
     }
