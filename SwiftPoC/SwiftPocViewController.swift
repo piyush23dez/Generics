@@ -74,7 +74,7 @@ struct Stack<T>: Container {
         return nil
     }
     
-    //To increment any type of number, we have to conform to Comparable protocol
+    //To compare numeric values, we have to conform to Comparable protocol
     func getMin<T: Comparable>(x: T, y: T) -> T {
         return y < x ? y : x
     }
